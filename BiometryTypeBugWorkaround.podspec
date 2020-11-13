@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
                         This library provides a workaround for the bug.
                       DESC
 
-  s.homepage         = 'https://github.com/mshibanami/BiometryTypeBugWorkaround'
+  s.homepage         = 'https://github.com/xinghuoliaoyuan45/BiometryTypeBugWorkaround'
   s.license          = { type: 'MIT', file: 'LICENSE' }
   s.author           = { 'Manabu Nakazawa' => 'mshibanami+git@gmail.com' }
-  s.source           = { git: 'https://github.com/mshibanami/BiometryTypeBugWorkaround.git', tag: s.version.to_s }
+  s.source           = { git: 'https://github.com/xinghuoliaoyuan45/BiometryTypeBugWorkaround.git', tag: s.version.to_s }
   s.social_media_url = 'https://twitter.com/mshibanami'
   s.ios.deployment_target = '10.0'
   s.source_files = 'BiometryTypeBugWorkaround/Classes/**/*'
