@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Manabu Nakazawa' => 'mshibanami+git@gmail.com' }
   s.source           = { git: 'https://github.com/mshibanami/BiometryTypeBugWorkaround.git', tag: s.version.to_s }
   s.social_media_url = 'https://twitter.com/mshibanami'
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '10.0'
   s.source_files = 'BiometryTypeBugWorkaround/Classes/**/*'
   # s.public_header_files = 'Pod/Classes/**/*.h'
 end
